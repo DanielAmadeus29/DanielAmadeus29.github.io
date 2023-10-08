@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ .tab1 { 
+tab-size: 4; 
+} 
+
+.background-image {
+    background: url(image/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  100vh;
+    min-height: 100px;
+}
+.profile {
+    width: 100px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    
+}
+h1 {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h2 {
+    font-size: 16px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 2;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+pre {
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 2;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo {
+    width: 100px;
+}
+a {
+    color: white;
+}
