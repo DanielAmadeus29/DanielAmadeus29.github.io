@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="home">
+        <img class="profile" src="image/398674.jpg">
+        <h1>Hello,<br>I'm Daniel Amadeus</h1>
+        <br><br>
+        <p>I am a Sophomore International Student at Fujen Catholic University Majoring in Computer Science and Information Engineering. Just wanna let you know, I'm originally not from Taiwan, I'm from Indonesia. As a non-native Mandarin speaker, sometimes I feel a little bit challenging when dealing with Mandarin. No matter what, I must improve my Mandarin because I live in a Mandarin speaker environment. A little about me, I like playing games, piano and I listen to Music a lot. I'll put my Spotify link below, maybe you can find any good songs from my playlist? Who knows. Alright, so this is a short Introduction about me. You can also follow my Instagram down below if you want, Thank you !!!</p>
+        <h1 class="about">About Me</h1>
+        <br>
+        <p>Nationality : Indonesia</p>
+        <p>Date/Place of Birth  : Jakarta, 29 December 2003</p>
+        <br><br>
+        <hr>
+    </div>
+    <div class ="footer">
+        <hr>
+        <br>
+        <button class="instagram-button">
+            <a href="https://www.instagram.com/daniel.amadeuz/" target="_blank">
+              <img class="logo" src="image/instagram-logo.png" alt="Instagram">
+              @daniel.amadeuz
+            </a>
+          </button>
+          <button class="spotify-button">
+            <a href="https://open.spotify.com/user/mqw88yqk41zmwdg43xlthrd1b?si=f00d4b96c74e46ef" target="_blank">
+              <img class="logo" src="image/spotify-logo.png" alt="Spotify">
+              DanielAmadeuz
+            </a>
+          </button>
+          <button id="changeStyleButton">Change Style</button>          
+          
+        <br>
+        <br>
+        <hr>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("#changeStyleButton").click(function() {
+        $(".spotify-button").css({
+          "background-color": "#3dd16c",  
+          "color": "#ffffff",                
+          "border": "2px solid #3dd16c",  
+          "border-radius": "10px",        
+          "padding": "12px 24px",         
+        });
+    
+        
+        $(".spotify-button a").css({
+          "text-decoration": "none",  
+          "color": "inherit"       
+        });
+    
+        $(".spotify-button img").css({
+          "vertical-align": "middle",  
+          "margin-right": "5px"      
+        });
+      });
+    });
+    </script>
+    
+</body>
+</html>
